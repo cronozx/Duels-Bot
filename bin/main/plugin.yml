@@ -1,0 +1,4 @@
+name: DuelsBot
+version: '${version}'
+main: cronozx.duelsbot.DuelsBot
+api-version: '1.16'
