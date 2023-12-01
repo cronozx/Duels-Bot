@@ -1,5 +1,6 @@
-package cronozx.duelsbot;
+package cronozx.duelsbot.botcommands;
 
+import cronozx.duelsbot.DuelsBot;
 import me.realized.duels.api.Duels;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;

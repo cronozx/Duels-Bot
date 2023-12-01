@@ -3,3 +3,13 @@ version: '${version}'
 main: cronozx.duelsbot.DuelsBot
 api-version: '1.16'
 softdepend: [Duels]
+
+commands:
+  reload:
+    description: Reloads the config
+    usage: /<command>
+    permission: duelsbot.reload
+permissions:
+    duelsbot.reload:
+        description: Allows the user to reload the config
+        default: op
